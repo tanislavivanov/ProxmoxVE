@@ -36,7 +36,7 @@ $STD apt install -y \
 msg_ok "Installed Dependencies"
 
 NODE_VERSION="22" setup_nodejs
-GOLANG_VERSION="1.23.0" setup_golang
+setup_go
 
 msg_info "Installing Goose & SQLC"
 export PATH=$PATH:/usr/local/go/bin:/root/go/bin
